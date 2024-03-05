@@ -210,7 +210,7 @@ class _HomeState extends State<Home> {
           width: 40,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
-            child: Image.network('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEUAAAD////o6Oj29vbQ0ND8/PwvLy+7u7uHh4fW1tbKysru7u4jIyPb29tGRkZzc3NYWFhiYmI0NDROTk4QEBCbm5tsbGxnZ2eRkZEICAioqKg+Pj4YGBiioqJ8fHwqKiqysrITT5JkAAADWUlEQVRogbWa6ZKqMBCFA0kIu0HABQR5/6ecoebOyJLudCv3/LTwM5Wlc06jCEjSoYovddQ0UX2JVahp3xKUh8JujMRC0diFB8HlkIud8lYeAJdTtEfPenZevA+eXdzoWVff3HjgyR1mC3FPPoGbB8YW4mHehxscPQulY/DCzxaieA8e1hR4iawqDNcVhS2EhY8rDCdM+I/gaQfhuqTCS3DoIHygsoVoufCQPHBkTSF4SmcLkTLhJw78woRz2AKEuD9WPLhiwVseHNgvADzmwUcWnLWeQpxY8CsPfuXApeXB64wB10y4dd/VwLQg17JLrGn5vwvK3IoxC97x4LxDFPLgQM2Fak7DggMQ6PMbh31jwlllESiKIDwjGotZ1n0+kQua7CwQbwH7FpLfmlWDCBhOcoqzYB+NeEXiKQVOpwcuSdXrgoQXzEJnZz/7DO0UHzxQaGiZdYe2uB8eFJ5Lo8asvzdwhehZqjxxzhcV5Q0sYU3sC6L+BK2AW+kE2U8OPNDKkaEjRWgukBoLQdZWix+Iqhupr0CEfysxUztW1dhOxpOb34DP0lISOy0+uFRmMvg+DsLvRxS8ZwB41o127rL0Hcbu+u9Hcjt2QA1wwWXaL1YPnOFkscZ96hq/Az5tTmXs3NDppiJfJwI83ZeThzV6tZBaG7tvltjdIDZwObqPo7BDqoowy8JCpQNUzrb1YA1H61R+Lq0tz45u2mtuQhjOzHAuKQjOdJ9O3Sc3nOFUMBkXPDmGvbQaf3BOmwLXq4nxC5dkg+VXLTdwZk7BFa/hytOd5OmhlnCauaLrnw37gbP6QhSlCzjBt/F0fsGZ2Y2i7DXyw9nNYloYTUSalnMuGfGKoliv9jlWpdkq5fqEHjoxv/fdL1wfeIz+AvVfVTzukL7C+queZ73/exQteq+Lm6gA3jbxVGVOeJA8P2fXy/t/dft/Xr8eK+e69i3Fh/NeIb6F+voG0mnjdrdeEc+GuHbpbmdENasBtdBjb+UdFtq8NfGVI6g7k8WNfV0/He4cii0Js90au6MjkIl0xxh8ZICMh7ybq0j8CInpSA7Vym/D8hZLvHjIzYYyAhs6zbme8L6FN0Fnph0dtqYfB2c65MGD+b8QxdTGV9vn9ybv7SUeTEH6R8QXNqYmEUGVp0kAAAAASUVORK5CYII='),
+            child: Image.asset('assets/user.png')
           ),
         ),
       ]),
